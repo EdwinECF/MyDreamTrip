@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'samuraiBlast';
+    src: url('../fonts/samuraiBlast.ttf') format('truetype');
+}
+
+body{
+    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+header{
+  background-color: #282828;
+  color: #FF5A5F;
+  width: 100%;
+}
+.name-brand{
+  font-family: "samuraiBlast", sans-serif;
+  font-size: 35px;
+  text-shadow: 1px 1px 2px #FFF;
+}
+.header-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+.map-logo{
+  opacity: 0.9;
+  width: 50px;
+  filter: drop-shadow(1px 1px 2px #fff);
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 400;
+  margin: 30px 25px;
+}
+.place-image{
+  width: 100%;
+}
+
+.caption{
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.place-desc{
+  font-size: 18px;
+  margin: 20px 25px;
+}
+
+.learn-more-btn{
+  align-self: center;
+  padding: 15px 30px;
+  background-color: #FF5A5F;
+  color: #fff;
+  border: none;
+  margin: 0px 25px;
+  text-decoration: none;
+  font-size: 15px;
+  white-space: nowrap;     
+}
+
+h2{ 
+  font-family: "samuraiBlast", sans-serif;
+  text-shadow: 2px 2px 2px #282828;
+  color: #FF5A5F;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
